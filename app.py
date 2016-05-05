@@ -8,6 +8,7 @@ def load_recipes_from_file(file_path):
     with open(file_path) as f:
         recipes = json.load(f)
         return recipes
+
 # load global from file
 recipe_path = './recipes.json'
 recipes = load_recipes_from_file(recipe_path)
